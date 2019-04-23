@@ -24,6 +24,6 @@ source  ~/powerlevel9k/powerlevel9k.zsh-theme
  alias gclearLocal="git branch -vv | grep ': gone]'|  grep -v "\*" | awk '{ print $1; }' | xargs -r git branch -d"
 
  # Finder Aliases
- alias cdd='cd && cd /Users/dc/desktop'
+ alias cdd='cd && cd /Users/dc/Desktop'
 
 
