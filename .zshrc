@@ -23,28 +23,7 @@
  alias gcm="git commit -m"
  alias gclearLocal="git branch -vv | grep ': gone]'|  grep -v "\*" | awk '{ print $1; }' | xargs -r git branch -d"
 
- export WORKON_HOME=$HOME/.virtualenvs
- export PROJECT_HOME=$HOME/Devel
- source /usr/local/bin/virtualenvwrapper.sh
-
  # Finder Aliases
- alias cdd='cd && cd /Users/davidcarter/desktop'
- alias cda='cd && cd supercarers/app'
- alias cdi='cd && cd supercarers/integration'
- alias cdw='cd && cd supercarers/website'
- alias cdb='cd && cd supercarers/brochure'
- alias cdin='cd && cd supercarers/infrastructure'
+ alias cdd='cd && cd /Users/dc/desktop'
  eval "$(direnv hook zsh)"
 
- # Loads nvm
- export NVM_DIR="/Users/davidcarter/.nvm"
- [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-
- # The next line updates PATH for the Google Cloud SDK.
- if [ -f '/Users/davidcarter/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/davidcarter/google-cloud-sdk/path.zsh.inc'; fi
-
- # The next line enables shell command completion for gcloud.
- if [ -f '/Users/davidcarter/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/davidcarter/google-cloud-sdk/completion.zsh.inc'; fi
-
- # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
- export PATH="$PATH:$HOME/.rvm/bin"
