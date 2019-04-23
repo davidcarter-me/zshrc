@@ -1,4 +1,4 @@
- source  ~/powerlevel9k/powerlevel9k.zsh-theme
+source  ~/powerlevel9k/powerlevel9k.zsh-theme
  POWERLEVEL9K_MODE='nerdfont-complete'
  source ~/powerlevel9k/powerlevel9k.zsh-theme
  POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(ssh dir vcs newline status)
@@ -25,5 +25,5 @@
 
  # Finder Aliases
  alias cdd='cd && cd /Users/dc/desktop'
- eval "$(direnv hook zsh)"
+
 
